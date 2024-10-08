@@ -13,7 +13,7 @@ def caesar_cipher(text, shift, mode):
     return result
 
 cmd, k = map(int, input().split())
-k %= 26  # Menjadikan K tetap diantara 0-25
+k %= 26  
 
 lines = []
 while True:
